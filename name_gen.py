@@ -75,4 +75,3 @@ class nameGen():
 def nameGen_caller(): 
     pass
 
-#post on stackoverflow to ask why this works better than the original cod
