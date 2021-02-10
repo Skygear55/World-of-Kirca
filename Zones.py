@@ -22,6 +22,7 @@ class Zone:
         self.cities = []
 class City:
     #Within zone, smaller unit on the map. Has produced resources, manpower, etc. All dependent on zone resources.
+    #Population should depend on zone and resources. Population growth should depend on prosperity. Prosperity should depend on economic growth which should depend on production of resources and wealth in general
     def __init__(self, population=rm.randint(1000, 999999))
 
 class Building:
